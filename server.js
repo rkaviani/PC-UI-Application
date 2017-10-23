@@ -3,7 +3,7 @@ const app=express();
 const path=require('path');
 
 app.use(express.static(__dirname + '/dist'));
-app.listen(prcess.ev.PORT || 8080);
+app.listen(process.ev.PORT || 8080);
 
 //pathlocationStrategy
 app.get('/*', function(req, res){
